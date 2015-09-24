@@ -1,6 +1,6 @@
-var cheerio = require('cheerio'),
-    gutil = require('gulp-util'),
-    through = require('through2');
+var cheerio = require('cheerio');
+var gutil = require('gulp-util');
+var through = require('through2');
 
 module.exports = function (opts) {
 

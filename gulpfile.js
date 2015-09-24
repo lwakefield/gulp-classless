@@ -1,6 +1,6 @@
-var gulp = require('gulp'),
-    mocha = require('gulp-mocha'),
-    classless = require('./index');
+var gulp = require('gulp');
+var mocha = require('gulp-mocha');
+var classless = require('./index');
 
 gulp.task('case1', function () {
     return gulp.src('./test/examples/case1.html')
