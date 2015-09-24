@@ -1,0 +1,37 @@
+{
+  "name": "gulp-classless",
+  "description": "Remove all classes from HTML nodes",
+  "version": "0.1",
+  "homepage": "https://github.com/lwakefield/gulp-classless.git",
+  "author": {
+    "name": "Lawrence Wakefield",
+    "email": "lawrence@iamlawrence.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lwakefield/gulp-classless.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.29"
+  },
+  "dependencies": {
+    "cheerio": "0.18.0",
+    "gulp-util": "3.0.1",
+    "through2": "0.6.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "gulp-mocha": "^1.0.0",
+    "gulp-util": "^3.0.1",
+    "gulp": "^3.8.8"
+  },
+  "keywords": [
+    "gulpplugin",
+    "html"
+  ]
+}
